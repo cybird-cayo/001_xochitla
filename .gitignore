@@ -4,3 +4,4 @@ db.sqlite3
 migrations
 blrp.txt
 blrp.txt.pub
+__pycache__

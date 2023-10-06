@@ -1,0 +1,6 @@
+.env
+db.sqlite3
+.venvs
+migrations
+blrp.txt
+blrp.txt.pub

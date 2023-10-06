@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<hr style="margin:auto" width="75%">
+<br>
+<div class="container  bg-light p-3 rounded-3">
+        <div class="row g-5">
+            <div class="col-md-9 py-3">
+                <div class="container">
+                    <h4 class="font-monospace text-primary-emphasis text-center">Que tal! My name is Ramses.</h4>
+                    <p class="lead">
+                        I'm a cybersecurity professional with a speciality in testing and analysis. My journey into cybersecurity began at Cal State Long Beach,
+                        where I achieved Professional Certification as a Cybersecurity Professional. Since then, I've completed another 2 professional certificates
+                        with plans to complete a few others such as the OSCP and CEH. I like to spend some of my time working through CTFs and scouring web applications
+                        looking for functionalities and services I can test on.
+                    </p>
+                    <p class="lead">
+
+                    </p>
+                </div>
+                <br>
+
+            </div>
+            <div class="col-md-3 text-center p-3">
+                <img class="img-fluid rounded-1" src="{% static 'incognito.png' %}">
+            </div>
+        </div>
+</div>
+
+<br>
+<footer class="p-3 text-center">
+    <hr style="margin:auto" width="75%">
+    <a href="https://www.flaticon.com/free-icons/incognito" title="incognito icons">Incognito icons created by Freepik - Flaticon</a>
+</footer>
+
+{% endblock %}

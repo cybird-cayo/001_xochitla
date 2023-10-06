@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<div class="container  bg-light p-3 rounded-3">
+        <div class="row g-5">
+            <div class="col-md-9 py-3">
+                <div class="container">
+                    <h4 class="font-monospace text-primary-emphasis text-center">CyberSec Adventures</h4>
+                    <p class="lead text-center">
+                        At a high-level, I like to begin most projects by building out a lay of the land and understanding the types of technologies, processes and services
+                        I'll be working with. I start most projects by compiling different data points into a project repository that I can later parse for unique endpoints/data.
+                        My goal at this phase is to identify potential attack vectors, discover subdomains, and assess security vulnerabilities in a proactive manner.
+                    </p>
+                    <p>
+                        <ul class="lead">
+                            <li>
+                               <code>1. Subdomain Enumeration</code>  <br>
+                                I use a variety of tools to perform automated and manual scans in search of unique endpoints.
+                            </li>
+                            <li>
+                                <code>2. Subdomain Validation and Content Discovery</code> <br>
+                                I validate the unique endpoints and subdomains for activity and content using HTML response codes and response headers.
+                            </li>
+                            <li>
+                                <code>3. Fingerprinting and Technology Identification</code> <br>
+                                I'll fingerprint the active server/endpoint to identify unique technologies being used.
+                            </li>
+                            <li>
+                                <code>4. Testing and Bug Identification</code> <br>
+                                I will initiate testing once potential attack vectors are identified, evaluating against various bug categories such as: SQL Injection, Cross-Site Scripting,
+                                Information Disclosure.
+                            </li>
+
+                        </ul>
+                    </p>
+                    <p class="fst-italic fw-lighter">
+                        I'll be adding some extra projects and other cool things I've been working on shortly!
+                    </p>
+                </div>
+                <br>
+
+            </div>
+            <div class="col-md-3 text-center p-3">
+                <img class="img-fluid rounded-1" src="{% static 'designer.png' %}">
+            </div>
+        </div>
+</div>
+<br>
+<hr style="margin:auto" width="75%">
+
+<footer class='text-center'>
+    <a href="https://www.flaticon.com/free-icons/designer" title="designer icons">Designer icons created by Freepik - Flaticon</a>
+</footer>
+{% endblock %}
